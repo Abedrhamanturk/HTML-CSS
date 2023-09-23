@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 1em sans-serif;
+   overflow-x: hidden;
+}
+
+.header{
+    height: 45vh;
+   
+}
+.header-background{
+    background-image: url("../img/simple-house-01.jpg");
+}
+.logo-header{
+    position: absolute;
+    margin: 220px 25px;
+}
+.our-store{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 210px 90px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 15%;
+    margin-left: 75%;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    border-bottom: 2px solid white;
+    
+  }
+
+
+.body-imgs{
+    max-width: 280px;
+    
+    margin-left: 30px;
+    margin-right: auto;
+    display: flex;
+    
+    flex-wrap:wrap;
+}
+.first{
+    margin:-385px -80px;
+    padding: 0 30rem;
+}
+.second{
+    margin:-385px -40px;
+    padding: 0 50rem;
+}
+.third{
+    margin:-385px -10px;
+    padding: 0 70rem;
+}
+.fourth{
+    margin:70px -300px;
+    padding: 0 20rem;
+}
+.fifth{
+    margin:-455px -300px;
+    padding: 0 44rem;
+}
+.sixth{
+    margin:-455px -300px;
+    padding: 0 66rem;
+}
+.last{
+    margin:-455px -300px;
+    padding: 0 88rem;
+}
+.title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.25rem;
+    color: #2F956D;
+    margin-bottom: 10px;
+}
+
+.tr {
+   
+    margin: 40px;
+    
+}
+
+.td-p1{
+    color:#1A6692;
+    margin-top:-18%;
+    margin-left: 40%;
+    font-weight: bolder; 
+    padding: -30px;
+    font-size: 2rem;
+}
+.td-p{
+    margin-top: 2%;
+    margin-left: 40%;
+    font-size: 1.6rem;
+    
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    align-self: flex-end;
+    padding: 6px 40px;
+    margin-left: 80%;
+    border: 1px solid black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 100px 250px;
+    font-size: 1.5em;
+}
+.about-gallery{
+        margin-top:-1% ;
+    display: grid;
+    grid-template: repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+}
+.first-about{
+    margin: 70% -250%;
+    
+}
+
+.about-name{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #09C;
+    margin-left: -31%;
+    margin-bottom: 2%;
+    width: 70%;
+    margin-top: -18%;
+    display: flex;
+    justify-content: center;
+}
+.about-title{
+    color: #C39;
+    margin-left: 14%;
+    margin-bottom: -2%;
+    margin-top: -1%;
+}
+.about-desc{
+    margin-top: 3%;
+    margin-left: 14%;
+}
+.second-about{
+    margin: 30% -250%;
+}
+.third-about{
+    margin: -285% 70%;
+}
+
+.last-about{
+    margin: -115% 70%;
+}
+.last-about-img {
+    margin-top: 5%;
+    margin-left: 5.3%;
+}
+
+    .last-about-title {
+    margin-top: -20%;
+    margin-left: 40%;
+    font-size: 1.6rem;
+    color: #1A6692;
+}
+
+    .last-about-text {
+    margin-top: 2%;
+    margin-left: 40%;
+    font-size: 1.6rem;
+}
+
+.text-input{
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+.email-input{
+    margin-left: 20%;
+    margin-bottom: 1%;
+
+}
+.text-area{
+    margin-left: 20%;
+    margin-bottom: 1%;
+   
+}
+.send-btn{
+    background-color: red;
+    color: white;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    margin-left: 26%;
+}
+.address{
+    margin-left: 50%;
+    margin-top: -19%;
+}
+.check-box-contact{
+    margin-left: 30%;
+    font-size: 1.2rem;
+    color: #999;
+
+}
+#checkbox{
+    margin-left: 30%;
+}
+#checkbox2{
+    margin-left: 22.5%;
+}
+#checkbox3{
+    margin-left: 31%;
+}
+#checkbox4{
+    margin-left:17%;
+}
